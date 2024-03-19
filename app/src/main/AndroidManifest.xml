@@ -13,10 +13,10 @@
         android:theme="@style/Theme.AppBanHangAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".activities.RegisterScreen"
+            android:name=".activities.LoginScreen"
             android:exported="false" />
         <activity
-            android:name=".activities.LoginScreen"
+            android:name=".activities.RegisterScreen"
             android:exported="false" />
         <activity
             android:name=".activities.SplashScreen"
