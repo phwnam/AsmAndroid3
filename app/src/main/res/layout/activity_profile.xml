@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="18dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileScreen">
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableTint="#FACF23"
+        android:drawableStart="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FACF23"
+        android:layout_gravity="center"
+        android:text="Thông tin "/>
+
+    <EditText
+        android:id="@+id/edtFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Họ tên"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/khungedt"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/khungedt"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edtBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YYYY"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/khungedt"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/khungedt"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/khungbtn"
+        android:text="Hoàn thành"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
