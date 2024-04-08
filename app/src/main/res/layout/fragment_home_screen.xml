@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F1F0F0"
     android:layout_height="match_parent">
 
     <!-- Top Section -->
@@ -90,104 +91,12 @@
 
             <!-- Horizontal Scroll View -->
 
-            <HorizontalScrollView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RcvProduct"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="none">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:layout_marginBottom="5dp"
-                            android:background="@drawable/khungbtn"
-                            android:padding="10dp"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:layout_marginBottom="5dp"
-                            android:background="@drawable/khungbtn"
-                            android:padding="10dp"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:layout_marginBottom="5dp"
-                            android:background="@drawable/khungbtn"
-                            android:padding="10dp"/>
-                    </LinearLayout>
+                android:orientation="horizontal" />
 
-                </LinearLayout>
-            </HorizontalScrollView>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -197,107 +106,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <!-- Horizontal Scroll View -->
-
-            <HorizontalScrollView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RcvProduct1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="none">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_marginBottom="5dp"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:background="@drawable/khungbtn"
-                            android:layout_marginBottom="5dp"
-                            android:padding="10dp"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:background="@drawable/khungbtn"
-                            android:layout_marginBottom="5dp"
-                            android:padding="10dp"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical">
-                        <ImageView
-                            android:layout_width="180dp"
-                            android:layout_height="180dp"
-                            android:src="@drawable/taodo"
-                            android:layout_margin="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:textSize="16dp"
-                            android:text="Táo đỏ" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textColor="#469F0D"
-                            android:text="100$"/>
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:text="Thêm vào giỏ"
-                            android:background="@drawable/khungbtn"
-                            android:layout_marginBottom="5dp"
-                            android:padding="10dp"/>
-                    </LinearLayout>
+                android:orientation="horizontal" />
 
-                </LinearLayout>
-            </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
 
