@@ -48,7 +48,12 @@ public interface ApiServices {
 
     @PUT("update-product-by-id/{id}")
     Call<Response<Product>> updateProductById(@Path("id") String id, @Body Product product);
+    @GET("get-list-cart")
+    Call<Response<ArrayList<Cart>>> getListCart();
 
     @POST("add-to-cart")
     Call<Response<Cart>> addToCart(@Body Cart cart);
+
+    @PUT("/update-quantity/{productId}")
+    Call<Response<Cart>> updateQuantity(@Path("productId") String productId, @Body Cart cart);
 }

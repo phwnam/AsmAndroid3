@@ -30,7 +30,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 
 public class HomeScreen extends Fragment implements OnProductClickListener {
-    private FloatingActionButton fltAdd;
     private OnProductClickListener productClickListener;
     private HttpRequest httpRequest;
     private RecyclerView recycle_products, recycle_products1;
